@@ -28,10 +28,10 @@ To create a Yes/No dialog using the `YesNoDialog.Builder`, follow the example be
 ```kotlin
 YesNoDialog.Builder(requireContext())
     .isCancellable(true) // Allows the dialog to be canceled
-    .setTitleTxt(LanguageTags.resubmit) // Set the title of the dialog
-    .setMessage(LanguageTags.resubmitMessage) // Set the message of the dialog
-    .setYesText(LanguageTags.yesResubmit) // Set the text for the Yes button
-    .setNoText(LanguageTags.cancelBooking) // Set the text for the No button
+    .setTitleTxt(title) // Set the title of the dialog
+    .setMessage(message) // Set the message of the dialog
+    .setYesText(Positive Text) // Set the text for the Yes button
+    .setNoText(Negative Text) // Set the text for the No button
     .setYesBackgroundColor(yourColor) // Replace with your desired color for the Yes button
     .setNoBorderColor(yourColor) // Replace with your desired border color for the No button
     .onPositiveClick {
