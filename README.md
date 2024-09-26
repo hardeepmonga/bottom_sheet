@@ -17,7 +17,7 @@ To use this library in your project, add the following dependency to your `build
 
 ```groovy
 dependencies {
-    implementation 'com.github.hardeepmonga:BottomSheetButtonLibrary:1.0'
+    implementation 'com.github.hardeepmonga:bottom_sheet:1.0.0'
 }
 
 
